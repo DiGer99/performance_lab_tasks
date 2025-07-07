@@ -2,20 +2,17 @@ from pathlib import Path
 
 import typer
 
+from task4.task4_utils import count_steps
+
 app = typer.Typer()
-
-def count_steps(nums: list[int]) -> int:
-    nums.sort()
-
-    median = nums[len(nums) // 2]
-    total = sum(abs(num - median) for num in nums)
-
-    return total
 
 
 @app.command()
 def main(
-    nums_path: Path = typer.Argument(..., help="Path to nums file"),
+    nums_path: Path = typer.Argument(
+        ...,
+        help="Path to nums file",
+    ),
 ):
     with open(nums_path) as f:
         res = [int(i.strip()) for i in f.readlines()]
