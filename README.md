@@ -1,4 +1,6 @@
-# Установка зависимостей 
+ПКМ test_task -> Mark Directory as -> Sources root
+
+# Установка зависимостей
 
 Если нет uv
 ```shell
@@ -7,7 +9,7 @@
 
 Синхронизация с uv.lock
 ```shell
-  uv pip sync
+  uv sync
 ```
 
 # Запуск
@@ -24,4 +26,9 @@
 ## task3
 ```shell
   python3 -m task3.task3 "task3/values.json" "task3/tests.json" "task3/report.json"
+```
+
+## task4 
+```shell
+    python3 -m task4.task4 "task4/nums.txt"
 ```
