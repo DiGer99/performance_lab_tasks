@@ -3,7 +3,7 @@
 ```
 ПКМ performance_lab_tasks -> Mark Directory as -> Sources root
 
-# Установка зависимостей
+### Установка зависимостей
 
 Если нет uv
 ```shell
@@ -13,6 +13,10 @@
 Синхронизация с uv.lock
 ```shell
   uv sync
+```
+### Установка виртуального окружения в директории uv
+```shell
+    source .venv/bin/activate
 ```
 
 # Запуск
