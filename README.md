@@ -1,4 +1,7 @@
-ПКМ test_task -> Mark Directory as -> Sources root
+```shell
+    cd performance_lab_tasks
+```
+ПКМ performance_lab_tasks -> Mark Directory as -> Sources root
 
 # Установка зависимостей
 
