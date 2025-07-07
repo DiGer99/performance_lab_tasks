@@ -1,3 +1,5 @@
+# Настройка
+
 ### Переход в рабочую директорию
 ```shell
   cd performance_lab_tasks
