@@ -20,3 +20,8 @@
 ```shell
   python3 -m task2.task2 "task2/circle.txt" "task2/dot.txt"
 ```
+
+## task3
+```shell
+  python3 -m task3.task3 "task3/values.json" "task3/tests.json" "task3/report.json"
+```
