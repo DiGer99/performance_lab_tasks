@@ -1,6 +1,8 @@
+### Переход в рабочую директорию
 ```shell
-    cd performance_lab_tasks
+  cd performance_lab_tasks
 ```
+### Установка прав на рабочую директорию
 ПКМ performance_lab_tasks -> Mark Directory as -> Sources root
 
 ### Установка зависимостей
@@ -15,8 +17,9 @@
   uv sync
 ```
 ### Установка виртуального окружения в директории uv
+
 ```shell
-    source .venv/bin/activate
+  source .venv/bin/activate
 ```
 
 # Запуск
@@ -37,5 +40,5 @@
 
 ## task4 
 ```shell
-    python3 -m task4.task4 "task4/nums.txt"
+  python3 -m task4.task4 "task4/nums.txt"
 ```
